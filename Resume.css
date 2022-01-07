@@ -1,0 +1,78 @@
+body{
+    border: #000000 solid 2px;
+}
+.section1{
+    background-color: rgb(124, 185, 201);
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    top: 0px;
+}
+
+.adress{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.name{
+    font-size: 25px;
+    margin-top: 2px;
+}
+
+.contact{
+    font-style: italic;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.section2{
+    height:100%;
+    display: flex;
+}
+.section2-left{
+    background-color:rgb(124, 201, 153);
+    position: sticky;  
+    top: 30px;
+}
+
+.skills,.Certificate{
+    margin: 30px 25px;
+    height: 14%;
+}
+.section2-right{
+    margin:0px;
+}
+span{
+    font-size: 18px;
+}
+
+.objective{
+    text-align:justify;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.section2-right-left{
+    display: flex;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.education{
+    margin: 3p;
+    width: 50%;
+    font-size: 15px;
+    text-align: justify;
+}
+.sub-headings{
+    display:flex;
+    justify-content: space-between;
+    font-style: italic;
+    font-size: 1%;
+}
+.line{
+    border: solid black ;
+    margin: 0px 15px;
+    padding-top: 0px;
+}
